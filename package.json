@@ -1,0 +1,15 @@
+{
+  "name": "chariot",
+  "packageManager": "yarn@3.6.3",
+  "workspaces": {
+    "packages": [
+      "apps/*",
+      "packages/*"
+    ]
+  },
+  "scripts": {
+    "dev": "yarn workspace @chariot/web dev",
+    "start": "yarn workspace @chariot/web start",
+    "reset": "yarn cache clean && rm -rf node_modules **/*/node_modules"
+  }
+}
