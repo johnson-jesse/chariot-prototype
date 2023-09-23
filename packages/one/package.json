@@ -1,8 +1,8 @@
 {
   "name": "@chariot/one",
   "packageManager": "yarn@3.6.3",
-  "main": "index.tx",
-  "types": "index.tx",
+  "main": "index.ts",
+  "types": "index.ts",
   "dependencies": {
     "@babel/core": "^7.22.20",
     "@types/react": "17.0.2",
